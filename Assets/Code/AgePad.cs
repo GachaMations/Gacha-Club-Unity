@@ -23,6 +23,9 @@ public class AgePad : MonoBehaviour
     SpriteRenderer m_SpriteRenderer;
     public GameObject StartScreen;
     public Sprite undernine;
+    public Sprite StartImg;
+    public Sprite ElevenTwelve;
+    public Sprite TOS;
     // Start is called before the first frame update
     void Start()
     {
@@ -142,5 +145,17 @@ public class AgePad : MonoBehaviour
         {
             m_SpriteRenderer.sprite = undernine;
         }
+        if(AgeInt == 11 || AgeInt == 12)
+        {
+            m_SpriteRenderer.sprite = ElevenTwelve;
+        }
+        if(AgeInt == 10 || AgeInt > 12)
+        {
+            m_SpriteRenderer.sprite = TOS;
+        }
+    }
+    public void back()
+    {
+        m_SpriteRenderer.sprite = StartImg;
     }
 }
