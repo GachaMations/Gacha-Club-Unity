@@ -17,7 +17,7 @@ public class FadeToMainMenu : MonoBehaviour
           transform.GetComponent<Renderer>().material.color = newColor;
           yield return null;
       }
-      SceneManager.LoadScene("MainMenu");
+      SceneManager.LoadScene("Tutorial");
   }
     public void Fade()
     {

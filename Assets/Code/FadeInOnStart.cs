@@ -13,7 +13,7 @@ public class FadeInOnStart : MonoBehaviour
         Color ThenewColor = new Color(1, 1, 1 , Mathf.Lerp(0f, 0f, 0f));
         transform.GetComponent<Renderer>().material.color = ThenewColor;
         yield return new WaitForSeconds(1);
-        StartCoroutine(FadeTo(1.0f, 0.1f));
+        StartCoroutine(FadeTo(1.0f, 0.25f));
     }
 
   IEnumerator FadeTo(float aValue, float aTime)
