@@ -156,8 +156,6 @@ MonoBehaviour:
   StartScreen: {fileID: 1649769006}
   undernine: {fileID: 21300000, guid: 8690114237557cf4da0b3948e48e4b59, type: 3}
   StartImg: {fileID: 21300000, guid: 27600314776ce784ebd76c9eeaf63752, type: 3}
-  ElevenTwelve: {fileID: 21300000, guid: 8c8e1da48e1a08c45979098b0439d2ba, type: 3}
-  TOS: {fileID: 21300000, guid: 69f2cda70922f194f8104e9c7f95cdb6, type: 3}
 --- !u!4 &133586226
 Transform:
   m_ObjectHideFlags: 0
@@ -1026,7 +1024,8 @@ MonoBehaviour:
   bEnter: {fileID: 1060085109}
   AgeTextObj: {fileID: 303534765}
   backbutton: {fileID: 1182026167}
-  UnderNine: {fileID: 0}
+  ThirteenPlus: {fileID: 21300000, guid: 69f2cda70922f194f8104e9c7f95cdb6, type: 3}
+  UnderNine: {fileID: 21300000, guid: 8690114237557cf4da0b3948e48e4b59, type: 3}
   AgeMenu: {fileID: 21300000, guid: 6eb4b5047b1462d4d82fad314a9f659d, type: 3}
   StartImg: {fileID: 21300000, guid: 27600314776ce784ebd76c9eeaf63752, type: 3}
 --- !u!4 &485400687
@@ -2267,7 +2266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2658,7 +2657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4050,7 +4049,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: 6eb4b5047b1462d4d82fad314a9f659d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27600314776ce784ebd76c9eeaf63752, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FadeIn : MonoBehaviour
+public class FadeInOnStart : MonoBehaviour
 {
     SpriteRenderer m_SpriteRenderer;
 
@@ -26,7 +26,7 @@ public class FadeIn : MonoBehaviour
           yield return null;
       }
   }
-    public void Fade()
+    void Start()
     {
         StartCoroutine(StartingScript());
     }

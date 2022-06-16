@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AgePad : MonoBehaviour
 {
@@ -24,8 +25,6 @@ public class AgePad : MonoBehaviour
     public GameObject StartScreen;
     public Sprite undernine;
     public Sprite StartImg;
-    public Sprite ElevenTwelve;
-    public Sprite TOS;
     // Start is called before the first frame update
     void Start()
     {
@@ -147,11 +146,11 @@ public class AgePad : MonoBehaviour
         }
         if(AgeInt == 11 || AgeInt == 12)
         {
-            m_SpriteRenderer.sprite = ElevenTwelve;
+            SceneManager.LoadScene("11-12");
         }
         if(AgeInt == 10 || AgeInt > 12)
         {
-            m_SpriteRenderer.sprite = TOS;
+            SceneManager.LoadScene("TOS");
         }
     }
     public void back()

@@ -42,7 +42,6 @@ public class FadeInMenu : MonoBehaviour
             audioData = GetComponent<AudioSource>();
             if(m_SpriteRenderer.sprite == StartScreen)
             {
-                Debug.Log("Mouse Clicked");
                 audioData.Play(0);
                 m_SpriteRenderer.sprite = Age;
             }
